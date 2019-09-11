@@ -1,0 +1,114 @@
+*{
+    margin:0px;
+    padding: 0px;
+    box-sizing: border-box;
+
+}
+body{
+    background-color: #24272e
+}
+
+header{
+    background-color: blueviolet;
+    padding: 20px;
+
+}
+
+header > h1{
+    color:#24272e;
+    text-align: center;
+    font-family: Asap, sans-serif;
+
+}
+.display{
+    background-color: blueviolet;
+    padding: 20px;
+    padding-bottom: 0px;
+    
+}
+.score-board{
+    margin: 0px auto;
+    margin-bottom: 30px;
+    border: 3px solid white;
+    width: 200px;
+    color: white;
+    font-size: 46px;
+    border-radius: 4px;
+    text-align: center;
+    padding: 30px 20px;
+    font-family: Asap, sans-serif;
+    position: relative;
+}
+.badge{
+    background-color: white;
+    color: blueviolet;
+    font-size: 16px;
+    padding: 2px 10px;
+    font-family: Asap, sans-serif;
+
+}
+#user-label{
+    position: absolute;
+    left: -25px;
+    top: 45px;
+}
+#computer-label{
+    position: absolute;
+    right: -30px;
+    top: 45px;
+}
+.result{
+    text-align: center;
+    font-size: 30px;
+    padding-bottom: 20px;
+    color: white;
+    font-weight: bold;
+    font-family: Asap, sans-serif;
+    
+}
+.choices{
+    text-align: center;
+    margin: 30px 0px;
+}
+.choice{
+    background-color: blueviolet;
+    padding: 10px 10px 0px 10px;
+    display: inline-block;
+    margin: 0px 3px 0px 3px;
+    border: 3px solid white;
+    border-radius: 50%;
+    transition: all .5s ease;
+    
+}
+.comp-choice{
+    background-color: blueviolet;
+    padding: 10px 10px 0px 10px;
+    display: inline-block;
+    margin: 0px 3px 0px 3px;
+    border: 3px solid white;
+    border-radius: 50%;
+    
+}
+.choice:hover{
+    background-color: #24272e;
+}
+#action-message{
+    color:#ffffff;
+    text-align: center;
+    font-family: Asap, sans-serif;
+}
+#action-message1{
+    padding-top: 30px;
+    color:#ffffff;
+    text-align: center;
+    font-family: Asap, sans-serif;
+}
+.play-again{
+    width: 150px;
+    margin-top: 10px;
+    padding: 10px;
+    background-color: white;
+    color: #24272e;
+    border: 0px;
+    border-radius: 6px;
+}
