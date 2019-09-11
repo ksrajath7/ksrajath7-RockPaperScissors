@@ -1,5 +1,7 @@
 let userScore = 0;
 let computerScore = 0;
+let music = new Audio();
+
 
 const userScore_span = document.getElementById("user-score");
 const computerScore_span = document.getElementById("computer-score");
@@ -54,14 +56,20 @@ function game(userChoice){
     userScore_span.innerHTML = userScore;
     computerScore_span.innerHTML = computerScore;
     if (userScore == 10){
+        music.src = 'sounds/coins.wav'
+        music.volume = .5;
         result_div.innerHTML = "User Wins! <br><br><img width=\"220\" height=\"220\" src=\"images/trophy.png\"><br><button class=\"play-again\" id=\"but\">Play Again</button>";
+        music.play();
         userScore = 0;
         computerScore = 0;
         clear();
         return;
     }
     if (computerScore == 10){
+        music.src = 'sounds/explosion.wav'
+        music.volume = .5;
         result_div.innerHTML = "Comp Wins! <br><button class=\"play-again\" id=\"but\">Play Again</button>";
+        music.play();
         userScore = 0;
         computerScore = 0;
         clear();
