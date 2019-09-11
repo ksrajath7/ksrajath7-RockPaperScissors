@@ -90,13 +90,20 @@ function clear(){
 
 function main(){
     rock_div.addEventListener('click', function(){
-        game("r");
+        setTimeout(function(){
+            game("r");
+       },200); 
+        
     })
     paper_div.addEventListener('click', function(){
-        game("p");
+        setTimeout(function(){
+            game("p");
+       },200); 
     })
     scissor_div.addEventListener('click', function(){
-        game("s");
+        setTimeout(function(){
+            game("s");
+       },200); 
     })
 }
 
