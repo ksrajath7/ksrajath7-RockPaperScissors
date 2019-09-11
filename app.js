@@ -54,7 +54,7 @@ function game(userChoice){
     userScore_span.innerHTML = userScore;
     computerScore_span.innerHTML = computerScore;
     if (userScore == 10){
-        result_div.innerHTML = "User Wins! <br><button class=\"play-again\" id=\"but\">Play Again</button>";
+        result_div.innerHTML = "User Wins! <br><br><img width=\"220\" height=\"220\" src=\"images/trophy.png\"><br><button class=\"play-again\" id=\"but\">Play Again</button>";
         userScore = 0;
         computerScore = 0;
         clear();
