@@ -11,20 +11,27 @@ body{
 header{
     background-color: blueviolet;
     padding: 20px;
+    font-family: Asap, sans-serif;
 
 }
 
 header > h1{
     color:#24272e;
     text-align: center;
-    font-family: Asap, sans-serif;
-
 }
 .display{
+    text-align: center;
     background-color: blueviolet;
-    padding: 20px;
+    padding: 10px;
     padding-bottom: 0px;
     
+}
+.points{
+    padding-bottom: 10px;
+    color: white;
+    text-align: center;
+    font-size: 15px;
+    font-family: Asap, sans-serif;
 }
 .score-board{
     margin: 0px auto;
