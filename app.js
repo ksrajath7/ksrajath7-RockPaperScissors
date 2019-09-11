@@ -109,6 +109,7 @@ function main(){
             }, 800);
         }
     })
+    
     scissor_div.addEventListener('click', function(){
         if(!clickeShield ){
             clickeShield = true;
