@@ -4,6 +4,7 @@ let music = new Audio();
 let clickeShield = false;
 
 const userScore_span = document.getElementById("user-score");
+
 const computerScore_span = document.getElementById("computer-score");
 
 const scoreBoard_div = document.querySelector(".score-board");
@@ -92,30 +93,28 @@ function main(){
     rock_div.addEventListener('click', function(){
         if(!clickeShield ){
             clickeShield = true;
-            game("r");
             setTimeout(() => {
-
+                game("r");
                 clickeShield = false;
-            }, 800);
+            }, 300);
         }
     })
     paper_div.addEventListener('click', function(){
         if(!clickeShield ){
             clickeShield = true;
-            game("p");
+            
             setTimeout(() => {
-
+                game("p");
                 clickeShield = false;
             }, 800);
         }
     })
-    
+
     scissor_div.addEventListener('click', function(){
         if(!clickeShield ){
             clickeShield = true;
-            game("s");
             setTimeout(() => {
-
+                game("s");
                 clickeShield = false;
             }, 800);
         }
